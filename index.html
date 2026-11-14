@@ -292,6 +292,17 @@
   background-image: url("/mafuta.png");
   background-size: cover;
   background-position: center;
+    }.product-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
     }</style>
 </head>
 <body>
@@ -384,14 +395,32 @@
             <div><span class="section-kicker">Product categories</span><h2>Staple foods. Wholesale opportunities.</h2></div>
             <button class="btn btn-outline-dark" data-page="products">All product categories →</button>
           </div>
-          <div class="product-grid">
-            <article class="product-card"><div class="product-image" role="img" aria-label="Rice"></div><div class="product-info"><h3>Rice</h3><p>Mchele</p></div></article>
-            <article class="product-card"><div class="product-image" role="img" aria-label="Beans"></div><div class="product-info"><h3>Beans</h3><p>Maharage</p></div></article>
-            <article class="product-card"><div class="product-image" role="img" aria-label="Maize"></div><div class="product-info"><h3>Maize</h3><p>Mahindi</p></div></article>
-            <article class="product-card"><div class="product-image" role="img" aria-label="Cassava"></div><div class="product-info"><h3>Cassava</h3><p>Mihogo</p></div></article>
-            <article class="product-card"><div class="product-image" role="img" aria-label="Cooking oil"></div><div class="product-info"><h3>Cooking Oil</h3><p>Mafuta ya kula</p></div></article>
-          </div>
-        </div>
+         <div class="product-grid">
+  <a href="fournisseurs-riz-tanzanie.html" class="product-card">
+    <div class="product-image" role="img" aria-label="Rice"></div>
+    <div class="product-info"><h3>Rice</h3><p>Mchele</p></div>
+  </a>
+
+  <a href="beans-suppliers-tanzania.html" class="product-card">
+    <div class="product-image" role="img" aria-label="Beans"></div>
+    <div class="product-info"><h3>Beans</h3><p>Maharage</p></div>
+  </a>
+
+  <a href="maize-flour-suppliers-tanzania.html" class="product-card">
+    <div class="product-image" role="img" aria-label="Maize"></div>
+    <div class="product-info"><h3>Maize</h3><p>Mahindi</p></div>
+  </a>
+
+  <article class="product-card">
+    <div class="product-image" role="img" aria-label="Cassava"></div>
+    <div class="product-info"><h3>Cassava</h3><p>Mihogo</p></div>
+  </article>
+
+  <a href="cooking-oil-suppliers-tanzania.html" class="product-card">
+    <div class="product-image" role="img" aria-label="Cooking oil"></div>
+    <div class="product-info"><h3>Cooking Oil</h3><p>Mafuta ya kula</p></div>
+  </a>
+  </div> 
       </section>
 
       <section class="markets-band"><div class="container markets-inner"><h3>Connecting regional trade markets</h3><div class="market-tags"><span>🇹🇿 Tanzania</span><span>🇨🇩 DR Congo</span><span>🇧🇮 Burundi</span><span>Other African markets</span></div></div></section>
